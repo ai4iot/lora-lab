@@ -16,7 +16,7 @@ Materials Required:
   * u8g2-arduino: https://github.com/olikraus/U8g2_Arduino
 
 ### Sender
-```arduino
+```c++
 #include <LoRa.h>
 #include "boards.h"
 
@@ -93,7 +93,7 @@ void loop()
 > Note: If you get errors, make sure that the **board has the correct permissions**, that you have **installed the libraries** and that you have opened the **folder containing the script**. 
 
 ### Receiver
-```arduino
+```c++
 
 #include <LoRa.h>
 #include "boards.h"
